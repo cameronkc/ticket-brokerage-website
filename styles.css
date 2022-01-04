@@ -14,7 +14,6 @@ body {
 
 .bg-img {
   background-image: url("./assets/images/pexels-wendy-wei-1190297.jpg");
-  background-size: cover;
   background-attachment: scroll;
   /* Set a specified height, or the minimum height for the background image */
   min-height: 500px;
