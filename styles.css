@@ -12,6 +12,26 @@ body {
   background-color: rgb(35, 41, 66);
 }
 
+.bg-img {
+  background-image: url("./assets/images/pexels-wendy-wei-1190297.jpg");
+  background-size: cover;
+  background-attachment: scroll;
+  /* Set a specified height, or the minimum height for the background image */
+  min-height: 500px;
+
+  /* Set background image to fixed (don't scroll along with the page) */
+  background-attachment: fixed;
+
+  /* Center the background image */
+  background-position: center;
+
+  /* Set the background image to no repeat */
+  background-repeat: no-repeat;
+
+  /* Scale the background image to be as large as possible */
+  background-size: cover;
+}
+
 .navbar {
   display: flex;
   align-items: center;
@@ -164,6 +184,9 @@ button::after {
 
 .hero-logo img {
   height: 40vh;
+}
+.hero-image img {
+  height: 80vh;
 }
 
 .about {
