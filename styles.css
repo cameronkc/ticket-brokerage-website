@@ -222,7 +222,8 @@ button::after {
   padding: 1em;
 }
 
-.contact-list ul li .fab {
+.contact-list ul li .fab,
+.contact-list ul li .fa-brands {
   font-size: 2em;
 }
 
