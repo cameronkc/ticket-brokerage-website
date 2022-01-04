@@ -40,6 +40,10 @@ body {
   padding: 2em;
 }
 
+.nav-list li:hover {
+  text-decoration: underline;
+}
+
 .nav-list li a {
   text-decoration: none;
 }
@@ -376,6 +380,9 @@ textarea:hover {
     height: 125px;
     width: 125px;
   }
+  .left-nav {
+    padding: 0;
+  }
 
   .about-title {
     font-size: 2em;
@@ -388,5 +395,13 @@ textarea:hover {
   }
   .contact-title {
     font-size: 2em;
+  }
+  button {
+    padding-right: 0;
+  }
+
+  .navbar {
+    font-size: 1.3em;
+    font-weight: 700;
   }
 }
