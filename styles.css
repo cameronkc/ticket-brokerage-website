@@ -403,5 +403,6 @@ textarea:hover {
   .navbar {
     font-size: 1.3em;
     font-weight: 700;
+    justify-content: space-between;
   }
 }
