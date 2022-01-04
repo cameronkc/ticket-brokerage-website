@@ -428,8 +428,8 @@ textarea:hover {
     justify-content: space-between;
   }
 
-  .partners-item img {
-    height: 100vh;
+  .partners-list {
+    display: flex;
   }
 }
 
@@ -444,12 +444,6 @@ textarea:hover {
 
 .partners-title {
   font-size: 1.5em;
-}
-
-.partners-div {
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .partners-item {
