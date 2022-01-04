@@ -310,7 +310,7 @@ input {
 
   background: transparent;
   outline: none;
-  color: #726659;
+  color: #fff;
 
   border: solid 1px #81c4e7;
   border-bottom: none;
@@ -323,7 +323,7 @@ input {
 
 input:hover {
   background: #81c4e7;
-  color: #e2dedb;
+  color: #fff;
 }
 
 textarea {
@@ -335,7 +335,7 @@ textarea {
   background: transparent;
   outline: none;
 
-  color: #726659;
+  color: #fff;
   font-size: 0.875em;
 
   border: solid 1px #81c4e7;
@@ -348,7 +348,7 @@ textarea {
 
 textarea:hover {
   background: #81c4e7;
-  color: #e2dedb;
+  color: #fff;
 }
 
 #submit {
@@ -368,7 +368,7 @@ textarea:hover {
 }
 
 #submit:hover {
-  color: #e2dedb;
+  color: #fff;
 }
 
 @media only screen and (min-width: 600px) {
